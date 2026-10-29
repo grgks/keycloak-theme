@@ -1,0 +1,97 @@
+/* Background */
+.login-pf body {
+    background: linear-gradient(135deg, #1e1b2e 0%, #2d2545 50%, #1e1b2e 100%);
+    background-size: cover;
+}
+
+/* Logo */
+#kc-header-wrapper {
+    background-image: url(../images/roomies.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    font-size: 0;
+    color: transparent;
+    border-radius: 20px;
+    overflow: hidden;
+    max-width: 280px;
+    height: 100px;
+    margin: 40px auto 10px;
+}
+
+#kc-header {
+    margin-top: 110px;
+}
+
+/* Card */
+.card-pf {
+    border-color: #7c3aed;
+    border-radius: 16px;
+    background: rgba(255, 255, 255, 0.95);
+    overflow: hidden;
+}
+
+/* Title */
+#kc-page-title {
+    color: rebeccapurple;
+    font-weight: 300;
+}
+
+/* Labels */
+.pf-c-form__label-text {
+    font-weight: 700;
+}
+
+/* Inputs */
+.pf-c-form-control {
+    border: 2px solid palegreen;
+    border-radius: 4px;
+}
+
+/* Button */
+.login-pf-page .btn-primary,
+.pf-c-button.pf-m-primary {
+    background-color: #4f46e5;
+    border-color: #4f46e5;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.login-pf-page .btn-primary:hover,
+.pf-c-button.pf-m-primary:hover {
+    background-color: #4338ca;
+    border-color: #4338ca;
+}
+
+/* Forgot password */
+.login-pf a {
+    color: #7c3aed;
+    font-weight: 600;
+}
+
+.login-pf a:hover {
+    color: #6d28d9;
+}
+
+/* Register link */
+.login-pf-signup a {
+    font-weight: 400;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+    .login-pf body {
+        background: linear-gradient(135deg, #1e1b2e 0%, #2d2545 50%, #1e1b2e 100%);
+    }
+
+    #kc-header-wrapper {
+        max-width: 200px;
+        height: 90px;
+        margin: 20px auto 20px;
+    }
+
+    .card-pf {
+        margin: 0 10px;
+        border-radius: 12px;
+    }
+}
