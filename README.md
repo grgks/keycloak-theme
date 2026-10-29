@@ -71,3 +71,16 @@ docker compose restart keycloak
 - **CSS-only** override (parent theme: `keycloak`)
 - **No FreeMarker templates** :  Keycloak 26+ uses CSS theming
 - **PatternFly v4** base styles inherited from parent
+
+
+## Related Repositories
+
+- **Frontend** ➤ [roomies-frontend-React](https://github.com/grgks/roomies-frontend-React) (React / TypeScript / Vite)
+- **Backend** ➤ Private repository (available upon request)
+
+## License
+
+This theme is built exclusively for [The Roommies](https://www.theroommies.gr).
+It is shared publicly for educational and portfolio purposes only. The Roomies logo and branding are not licensed for reuse.
+
+For questions or feedback, feel free to reach out via [LinkedIn](https://www.linkedin.com/in/giorgos-k-dev).
